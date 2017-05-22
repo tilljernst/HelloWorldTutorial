@@ -13,7 +13,24 @@
 		833BD1271EB8B1B70071AD99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833BD1261EB8B1B70071AD99 /* Assets.xcassets */; };
 		833BD12A1EB8B1B70071AD99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833BD1281EB8B1B70071AD99 /* LaunchScreen.storyboard */; };
 		833BD1321EB8BAFD0071AD99 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833BD1311EB8BAFD0071AD99 /* SecondViewController.swift */; };
+		833BD1341EB9CA350071AD99 /* CounterGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833BD1331EB9CA350071AD99 /* CounterGame.swift */; };
+		833BD1361EB9D3B90071AD99 /* SwitchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833BD1351EB9D3B90071AD99 /* SwitchController.swift */; };
+		833BD1381EB9DB3C0071AD99 /* webViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833BD1371EB9DB3C0071AD99 /* webViewController.swift */; };
+		833BD13A1EBB81100071AD99 /* wolverine1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 833BD1391EBB81100071AD99 /* wolverine1.gif */; };
+		833BD13C1EBB83810071AD99 /* ImageSliderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833BD13B1EBB83810071AD99 /* ImageSliderController.swift */; };
+		833BD13E1EC06F660071AD99 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833BD13D1EC06F660071AD99 /* Calculator.swift */; };
+		833BD1461EC217880071AD99 /* HelloWorldTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833BD1451EC217880071AD99 /* HelloWorldTutorialTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		833BD1481EC217880071AD99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 833BD1141EB8B1B60071AD99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 833BD11B1EB8B1B70071AD99;
+			remoteInfo = HelloWorldTutorial;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		833BD11C1EB8B1B70071AD99 /* HelloWorldTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorldTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +41,26 @@
 		833BD1291EB8B1B70071AD99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		833BD12B1EB8B1B70071AD99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		833BD1311EB8BAFD0071AD99 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		833BD1331EB9CA350071AD99 /* CounterGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterGame.swift; sourceTree = "<group>"; };
+		833BD1351EB9D3B90071AD99 /* SwitchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchController.swift; sourceTree = "<group>"; };
+		833BD1371EB9DB3C0071AD99 /* webViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = webViewController.swift; sourceTree = "<group>"; };
+		833BD1391EBB81100071AD99 /* wolverine1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wolverine1.gif; sourceTree = "<group>"; };
+		833BD13B1EBB83810071AD99 /* ImageSliderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSliderController.swift; sourceTree = "<group>"; };
+		833BD13D1EC06F660071AD99 /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		833BD1431EC217880071AD99 /* HelloWorldTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		833BD1451EC217880071AD99 /* HelloWorldTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldTutorialTests.swift; sourceTree = "<group>"; };
+		833BD1471EC217880071AD99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		833BD1191EB8B1B70071AD99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833BD1401EC217870071AD99 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				833BD11E1EB8B1B70071AD99 /* HelloWorldTutorial */,
+				833BD1441EC217880071AD99 /* HelloWorldTutorialTests */,
 				833BD11D1EB8B1B70071AD99 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				833BD11C1EB8B1B70071AD99 /* HelloWorldTutorial.app */,
+				833BD1431EC217880071AD99 /* HelloWorldTutorialTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,12 +94,27 @@
 				833BD11F1EB8B1B70071AD99 /* AppDelegate.swift */,
 				833BD1211EB8B1B70071AD99 /* ViewController.swift */,
 				833BD1231EB8B1B70071AD99 /* Main.storyboard */,
+				833BD13B1EBB83810071AD99 /* ImageSliderController.swift */,
+				833BD13D1EC06F660071AD99 /* Calculator.swift */,
+				833BD1331EB9CA350071AD99 /* CounterGame.swift */,
+				833BD1351EB9D3B90071AD99 /* SwitchController.swift */,
+				833BD1371EB9DB3C0071AD99 /* webViewController.swift */,
 				833BD1311EB8BAFD0071AD99 /* SecondViewController.swift */,
 				833BD1261EB8B1B70071AD99 /* Assets.xcassets */,
 				833BD1281EB8B1B70071AD99 /* LaunchScreen.storyboard */,
 				833BD12B1EB8B1B70071AD99 /* Info.plist */,
+				833BD1391EBB81100071AD99 /* wolverine1.gif */,
 			);
 			path = HelloWorldTutorial;
+			sourceTree = "<group>";
+		};
+		833BD1441EC217880071AD99 /* HelloWorldTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				833BD1451EC217880071AD99 /* HelloWorldTutorialTests.swift */,
+				833BD1471EC217880071AD99 /* Info.plist */,
+			);
+			path = HelloWorldTutorialTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +137,24 @@
 			productReference = 833BD11C1EB8B1B70071AD99 /* HelloWorldTutorial.app */;
 			productType = "com.apple.product-type.application";
 		};
+		833BD1421EC217870071AD99 /* HelloWorldTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 833BD14A1EC217880071AD99 /* Build configuration list for PBXNativeTarget "HelloWorldTutorialTests" */;
+			buildPhases = (
+				833BD13F1EC217870071AD99 /* Sources */,
+				833BD1401EC217870071AD99 /* Frameworks */,
+				833BD1411EC217870071AD99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				833BD1491EC217880071AD99 /* PBXTargetDependency */,
+			);
+			name = HelloWorldTutorialTests;
+			productName = HelloWorldTutorialTests;
+			productReference = 833BD1431EC217880071AD99 /* HelloWorldTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -100,6 +168,11 @@
 					833BD11B1EB8B1B70071AD99 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
+					};
+					833BD1421EC217870071AD99 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 833BD11B1EB8B1B70071AD99;
 					};
 				};
 			};
@@ -117,6 +190,7 @@
 			projectRoot = "";
 			targets = (
 				833BD11B1EB8B1B70071AD99 /* HelloWorldTutorial */,
+				833BD1421EC217870071AD99 /* HelloWorldTutorialTests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,7 +202,15 @@
 			files = (
 				833BD12A1EB8B1B70071AD99 /* LaunchScreen.storyboard in Resources */,
 				833BD1271EB8B1B70071AD99 /* Assets.xcassets in Resources */,
+				833BD13A1EBB81100071AD99 /* wolverine1.gif in Resources */,
 				833BD1251EB8B1B70071AD99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833BD1411EC217870071AD99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,13 +221,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				833BD13C1EBB83810071AD99 /* ImageSliderController.swift in Sources */,
 				833BD1221EB8B1B70071AD99 /* ViewController.swift in Sources */,
+				833BD1361EB9D3B90071AD99 /* SwitchController.swift in Sources */,
 				833BD1321EB8BAFD0071AD99 /* SecondViewController.swift in Sources */,
+				833BD1341EB9CA350071AD99 /* CounterGame.swift in Sources */,
+				833BD13E1EC06F660071AD99 /* Calculator.swift in Sources */,
 				833BD1201EB8B1B70071AD99 /* AppDelegate.swift in Sources */,
+				833BD1381EB9DB3C0071AD99 /* webViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833BD13F1EC217870071AD99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833BD1461EC217880071AD99 /* HelloWorldTutorialTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		833BD1491EC217880071AD99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 833BD11B1EB8B1B70071AD99 /* HelloWorldTutorial */;
+			targetProxy = 833BD1481EC217880071AD99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		833BD1231EB8B1B70071AD99 /* Main.storyboard */ = {
@@ -284,6 +387,32 @@
 			};
 			name = Release;
 		};
+		833BD14B1EC217880071AD99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HelloWorldTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZHAW.HelloWorldTutorialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorldTutorial.app/HelloWorldTutorial";
+			};
+			name = Debug;
+		};
+		833BD14C1EC217880071AD99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HelloWorldTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZHAW.HelloWorldTutorialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorldTutorial.app/HelloWorldTutorial";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -301,6 +430,14 @@
 			buildConfigurations = (
 				833BD12F1EB8B1B70071AD99 /* Debug */,
 				833BD1301EB8B1B70071AD99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		833BD14A1EC217880071AD99 /* Build configuration list for PBXNativeTarget "HelloWorldTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833BD14B1EC217880071AD99 /* Debug */,
+				833BD14C1EC217880071AD99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
